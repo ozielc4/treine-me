@@ -1,0 +1,32 @@
+.container {
+   width: 100%;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding-top: 65px;
+
+   header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 55px;
+
+      .menu{
+
+         ul {
+            display: flex;
+            gap: 48px;
+            font-size: 18px;
+
+            a {
+               color: #1F1534;
+               transition: .3s;
+
+               &:hover {
+                  color: #2ebe8c;
+                  font-weight: bold;
+               }
+            }
+         }
+      }
+   }
+}
